@@ -1,3 +1,4 @@
 export function calculateVAT(amount: number): number {
-  return amount * 0.07;
+  // calculate 7% of the given amount
+  return (amount * 7) / 100;
 }

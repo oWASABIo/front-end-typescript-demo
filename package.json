@@ -1,0 +1,8 @@
+{
+  "name": "front-end-typescript-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc src/vat.ts --outDir dist --module commonjs",
+    "test": "npm run build && node test/vat.test.js"
+  }
+}
